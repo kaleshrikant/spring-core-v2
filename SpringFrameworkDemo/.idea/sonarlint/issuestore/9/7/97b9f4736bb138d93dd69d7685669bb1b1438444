@@ -1,2 +1,4 @@
 
-r	java:S106"+Replace this use of System.out by a logger.(ãÌð…ÿÿÿÿÿ8£Â§ýø1J$ae9f2d9c-96e6-41e7-83da-6d66a367e0f6
+r	java:S106$"+Replace this use of System.out by a logger.(ãÌð…ÿÿÿÿÿ8†¹”‚ù1J$6266fe61-83ee-4fd0-99fa-7154b2121a43
+g
+java:S1128"ERemove this unused import 'org.springframework.stereotype.Component'.(Þ÷Ñ¸ÿÿÿÿÿ8²ó†ƒù1

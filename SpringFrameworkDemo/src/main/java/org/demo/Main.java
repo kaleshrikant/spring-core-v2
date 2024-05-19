@@ -1,19 +1,12 @@
 package org.demo;
 
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class Main {
     public static void main(String[] args) {
-        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("spring.xml");
+        ApplicationContext applicationContext = new AnnotationConfigApplicationContext(BeanConfiguration.class);
 
-       /*
-            Doctor doc = applicationContext.getBean(Doctor.class);
-            doc.assist();
-
-            Nurse nurse = (Nurse) applicationContext.getBean("nur");
-            nurse.assist();
-        */
 
         Staff staff =  applicationContext.getBean(Doctor.class);
             staff.assist();
