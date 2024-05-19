@@ -1,4 +1,7 @@
 
-r	java:S106$"+Replace this use of System.out by a logger.(γΜπ…ÿÿÿÿÿ8†Ή”‚ω1J$6266fe61-83ee-4fd0-99fa-7154b2121a43
-g
-java:S1128"ERemove this unused import 'org.springframework.stereotype.Component'.(ήχΡΈÿÿÿÿÿ8²σ†ƒω1
+r
+java:S6829"*Add @Autowired to one of the constructors.(π άψÿÿÿÿ8Έ„ω1J$de924e79-d621-43ae-a259-2ddf27c2d3b7
+r	java:S106)"+Replace this use of System.out by a logger.(γΜπ…ÿÿÿÿÿ8¥Έ„ω1J$7254e167-d3ce-42fc-84e9-1dca73326757
+r	java:S106."+Replace this use of System.out by a logger.(τ¬λιÿÿÿÿÿ8©Έ„ω1J$c7b9ccff-bc83-4e04-9cb3-8101bd822846
+m	java:S1063"+Replace this use of System.out by a logger.(›ΰμ™8«»„ω1J$5d89d0e5-7ba8-4b5a-a610-d8605871f33e
+r	java:S1068"+Replace this use of System.out by a logger.(Γ‘χΠϊÿÿÿÿ8ογΌ„ω1J$a35873e2-604a-4e26-83d8-febc99316850
